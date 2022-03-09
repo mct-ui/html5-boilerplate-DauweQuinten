@@ -1,1 +1,49 @@
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
 
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  padding: 24px 24px 0;
+}
+
+body {
+  /*width: 42em; breaks the internet !!!*/
+  /*Gebruik dus altijd max-width*/
+  max-width: 42em;
+  margin: 0 auto;
+  /*margin: 0 auto 0 auto; TOP RIGHT BOTTOM LEFT*/
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::selection {
+  background-color: #44c8f5;
+  color: white;
+  /* Andere mogelijkheden om wit in te stellen:
+  color: #FFFFFF;
+  color: #FFF;
+  color: rgb(255,255,255);
+  color: hsl(0,100%,100%); */
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
