@@ -131,12 +131,19 @@ hr {
 }
 
 a {
+  color: royalblue;
+}
+
+a:visited {
+  color: blueviolet;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover,
 a:focus {
+  color: crimson;
 }
 
-a:visited,
 a:active {
+  color: blueviolet;
 }
